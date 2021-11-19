@@ -27,5 +27,12 @@ body {
 .nav-bg {
     background-color: var(--secundario);
 }
-.navegacion-principal{
+.navegacion-principal {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
 }
